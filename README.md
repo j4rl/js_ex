@@ -1,2 +1,2 @@
 # js_ex
-JavaScrip is not Java
+*JavaScript* is not *Java*
