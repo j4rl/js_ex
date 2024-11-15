@@ -13,6 +13,10 @@ div{
     width:200px;
     height:200px;
     background: red;
+    flex-direction: column;
+    font:bold 20px sans-serif;
+    color:white;
+    gap:10px;
 }
 .cen{
     display: flex;
