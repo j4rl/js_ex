@@ -23,6 +23,7 @@ let not=!a;
 let xor=a^b;
 //conditional operators
 
+var ab=10; //old way of declaring variables
 let varName = 'Hello World';
 const staticValue = 62;
 const staticFloat = 3.14159;
@@ -33,7 +34,7 @@ let obj = {
     key2: 'value2',
     key3: [1, 2, 3]
 };
-let arrObj = [
+let arrObj = [ //JSON array of objects
     {
         key: 'value',
         key2: 'value2',

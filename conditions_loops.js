@@ -5,7 +5,7 @@ let ternary=(a>b)?'a is greater':'b is greater'; //ternary is a short form of if
 if(condition==true){
     // do something
 }
-else if(condition==false){
+else{
     // do something else
 }   
 
@@ -31,7 +31,7 @@ for(let i in arr){ // for in loop
 
 
 //switch case
-switch(condition){
+switch(variable){
     case 'case1':    
         // do something
         break;
