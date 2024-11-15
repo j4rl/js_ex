@@ -32,13 +32,13 @@ for(let i in arr){ // for in loop
 
 //switch case
 switch(condition){
-    'case1':    
+    case 'case1':    
         // do something
         break;
-    'case2':    
+    case 'case2':    
         // do something
         break;
-    'case3':
+    case 'case3':
         // do something
         break;
     default:
