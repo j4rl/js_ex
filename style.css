@@ -7,9 +7,15 @@ body{
     position:relative;
     height:100vh;
 }
+
 div{
     position:absolute;
     width:200px;
     height:200px;
     background: red;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
