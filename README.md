@@ -1,13 +1,14 @@
 # JavaScript examples
 This repository contains examples of JavaScript code.
+- [Code examples](code_examples.md)
+- [Events and Time functions](events_and_time.md)
+- [DOM explained](DOM_examples.md)
+***
 - [Variables](variables.js)
 - [Functions](functions.js)
 - [Conditions and Loops](conditions_loops.js)
 - [Classes](class.js)
 - [DOM manipulation](index.html)
-- [Code examples](code_examples.md)
-- [Events and Time functions](events_and_time.md)
-- [DOM manipulation](DOM_examples.md)
 
 ## About JavaScript
 **JavaScript** is not **Java**
