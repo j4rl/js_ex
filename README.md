@@ -20,7 +20,7 @@ This repository contains examples of JavaScript code.
 - [DOM manipulation](exercises/DOM.md) The file _DOM.md_ contains excercises to practice DOM manipulation in javascript.
 ***
 
-## About JavaScript
+# About JavaScript
 
 **JavaScript** is not **Java**
 ---
