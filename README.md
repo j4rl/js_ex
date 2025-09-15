@@ -4,6 +4,7 @@ This repository contains examples of JavaScript code.
 - [Events and Time functions](docs/events_and_time.md)
 - [DOM explained](docs/DOM_examples.md)
 ***
+**JavaScript** examples, plain JavaScript files with code to copy, or just read and learn from.
 - [Variables](js/variables.js)
 - [Functions](js/functions.js)
 - [Conditions and Loops](js/conditions_loops.js)
