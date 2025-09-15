@@ -14,6 +14,12 @@ This repository contains examples of JavaScript code.
   with the help of the DOM(Document Object Model) we can manipulate the html elements.
   ...also it gives an example of how to use event listeners in javascript.
 ***
+## JavaScript excercises
+- [Excercises](exercises/excercises.md) The file `_excercises.md_` contains excercises to practice javascript.
+- [Small game projects](exercises/projects.md) The file `_projects.md_` contains small game projects to practice javascript.
+- [DOM manipulation](exercises/DOM.md) The file `_DOM.md_` contains excercises to practice DOM manipulation in javascript.
+***
+
 ## About JavaScript
 **JavaScript** is not **Java**
 - JavaScript is a scripting language
