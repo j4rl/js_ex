@@ -5,23 +5,25 @@ This repository contains examples of JavaScript code.
 - [DOM explained](docs/DOM_examples.md)
 ***
 **JavaScript** examples, plain JavaScript files with code to copy, or just read and learn from.
-- [Variables](js/variables.js) The file `_variable.js_` is an example of variables in javascript.
-- [Functions](js/functions.js) The file `_function.js_` is an example of functions in javascript.
-- [Conditions and Loops](js/conditions_loops.js) The file `_conditions_loops.js_` is an example of conditions and loops in javascript.
-- [Classes](js/class.js) The file `_class.js_` is an example of classes in javascript.
+- [Variables](js/variables.js) The file _variables.js_ is an example of variables in javascript.
+- [Functions](js/functions.js) The file _functions.js_ is an example of functions in javascript.
+- [Conditions and Loops](js/conditions_loops.js) The file _conditions_loops.js_ is an example of conditions and loops in javascript.
+- [Classes](js/class.js) The file _class.js_ is an example of classes in javascript.
 - [DOM manipulation](ex/DOM/index.html) (also includes style.css and script.js)
-   - `_index.html_`, `_style.css_` and `_script.js_` are examples of how to use javascript in html. 
+   - _index.html_, _style.css_ and _script.js_ are examples of how to use javascript in html.
   with the help of the DOM(Document Object Model) we can manipulate the html elements.
   ...also it gives an example of how to use event listeners in javascript.
 ***
 ## JavaScript excercises
-- [Excercises](exercises/excercises.md) The file `_excercises.md_` contains excercises to practice javascript.
-- [Small game projects](exercises/projects.md) The file `_projects.md_` contains small game projects to practice javascript.
-- [DOM manipulation](exercises/DOM.md) The file `_DOM.md_` contains excercises to practice DOM manipulation in javascript.
+- [Excercises](exercises/excercises.md) The file _excercises.md_ contains excercises to practice javascript.
+- [Small game projects](exercises/projects.md) The file _projects.md_ contains small game projects to practice javascript.
+- [DOM manipulation](exercises/DOM.md) The file _DOM.md_ contains excercises to practice DOM manipulation in javascript.
 ***
 
 ## About JavaScript
+---
 **JavaScript** is not **Java**
+---
 - JavaScript is a scripting language
 - Java is a programming language
 - JavaScript is used to make web pages interactive
