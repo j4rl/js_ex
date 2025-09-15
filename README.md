@@ -21,6 +21,7 @@ This repository contains examples of JavaScript code.
 ***
 
 ## About JavaScript
+
 **JavaScript** is not **Java**
 ---
 - JavaScript is a scripting language
