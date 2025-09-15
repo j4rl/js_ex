@@ -1,7 +1,7 @@
 # DOM manipulation in JavaScript
 The DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree of nodes, where each node is an object representing a part of the document.
 
-## Selecting elements in the DOM (IE from the HTML file)
+## Selecting elements in the DOM (That is from the HTML file)
 To select an element in the DOM, you can use the `document.querySelector()` method. This method takes a CSS selector as an argument and returns the first element that matches the selector.
 here is an example:
 ```javascript

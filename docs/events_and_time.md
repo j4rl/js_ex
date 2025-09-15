@@ -2,13 +2,20 @@
 
 ## Event handling in the DOM
 Click events are the most common events used with the HTML elements. Click events occur when an element is clicked.
-
 ```javascript
 let button = document.querySelector('.my-button');
 button.addEventListener('click', () => {
     console.log('Button clicked!');
 });
 ```
+Hover events occur when the mouse pointer is moved over an element.
+```javascript
+let div = document.querySelector('.my-div');
+div.addEventListener('mouseover', () => {
+    console.log('Div hovered!');
+});
+```
+
 Onchange for input fields:
 ```javascript
 let input = document.querySelector('.my-input');
@@ -56,3 +63,13 @@ function animate() {
 }
 animate();
 ```
+## Usage of events and timing functions, best practices
+- Always remove event listeners when they are no longer needed to prevent memory leaks.
+- Use event delegation to handle events on multiple elements efficiently.
+- Use `setTimeout()` for one-time delays and `setInterval()` for repeated actions, but be cautious with intervals to avoid performance issues.
+- Use `requestAnimationFrame()` for animations to ensure they run smoothly and efficiently.
+- Debounce or throttle events like scroll and resize to improve performance.
+- Always pass a named function to `setTimeout()` and `setInterval()` instead of an anonymous function for better readability and maintainability.
+- Use `event.preventDefault()` to prevent default actions when necessary, such as form submissions or link clicks.
+- Use `event.stopPropagation()` to stop the event from bubbling up the DOM tree when needed
+- Test event handling and timing functions across different browsers to ensure compatibility.
