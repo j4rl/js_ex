@@ -9,7 +9,7 @@ This repository contains examples of JavaScript code.
 - [Functions](js/functions.js)
 - [Conditions and Loops](js/conditions_loops.js)
 - [Classes](js/class.js)
-- [DOM manipulation](js/index.html)
+- [DOM manipulation](ex/DOM/index.html) (also includes style.css and script.js)
 ***
 ## About JavaScript
 **JavaScript** is not **Java**
