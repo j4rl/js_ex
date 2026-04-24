@@ -2,7 +2,8 @@
 class Person {
     constructor(name = 'John Doe', age = 30) {
         this._name = name;  //"this" refers to the object that is calling the function
-        this._age = age;   //The underscore is used to indicate that the property is private
+        this._age = age;   //The underscore convention indicates the property should be treated as private.
+                           //Modern JS alternative: use # for true private fields, e.g. #name = name.
     }
     get name() {
         return this._name;

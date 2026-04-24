@@ -1,48 +1,52 @@
-//arithmatic operators
-let a=10;
-let b=20;
+// Arithmetic operators.
+let a = 10;
+let b = 20;
 
-let sum=a+b;
-let sub=a-b;
-let mul=a*b;
-let div=a/b;
-let mod=a%b; // modulo operator is used to get the remainder of a division operation
-let inc=a++;
-let dec=b--;
-//comparison operators
-let isEqual=a==b;
-let isNotEqual=a!=b;
-let isGreaterThan=a>b;
-let isLessThan=a<b;
-let isGreaterOrEqual=a>=b;
-let isLessOrEqual=a<=b;
-//logical operators
-let and=a&&b;
-let or=a||b;
-let not=!a;
-let xor=a^b;
-//conditional operators
+const sum = a + b;
+const sub = a - b;
+const mul = a * b;
+const div = a / b;
+const mod = a % b; // Modulo returns the remainder of a division operation.
+const inc = a++;
+const dec = b--;
 
-var ab=10; //old way of declaring variables
-let varName = 'Hello World';
+// Comparison operators.
+const isEqual = a === b;
+const isNotEqual = a !== b;
+const isGreaterThan = a > b;
+const isLessThan = a < b;
+const isGreaterOrEqual = a >= b;
+const isLessOrEqual = a <= b;
+
+// Logical operators.
+const hasPositiveA = a > 0;
+const hasPositiveB = b > 0;
+const and = hasPositiveA && hasPositiveB;
+const or = hasPositiveA || hasPositiveB;
+const not = !hasPositiveA;
+const logicalXor = (hasPositiveA || hasPositiveB) && !(hasPositiveA && hasPositiveB);
+const bitwiseXor = a ^ b;
+
+var ab = 10; // Old way of declaring variables.
+let varName = "Hello World";
 const staticValue = 62;
 const staticFloat = 3.14159;
 let myBool = true;
-let arr = [1, 2, 3];
-let obj = {
-    key: 'value',
-    key2: 'value2',
+const arr = [1, 2, 3];
+const obj = {
+    key: "value",
+    key2: "value2",
     key3: [1, 2, 3]
 };
-let arrObj = [ //JSON array of objects
+const arrObj = [
     {
-        key: 'value',
-        key2: 'value2',
+        key: "value",
+        key2: "value2",
         key3: [1, 2, 3]
     },
     {
-        key: 'value',
-        key2: 'value2',
+        key: "value",
+        key2: "value2",
         key3: [1, 2, 3]
     }
 ];

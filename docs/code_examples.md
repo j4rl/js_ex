@@ -50,8 +50,8 @@ let result = (x > 0) ? "x is positive" : (x < 0) ? "x is negative" : "x is zero"
 console.log(result);
 ```
     - The condition is followed by a question mark `?`.
-    - The value to be returned if the condition is true is followed by a colon `:`.
-    - The value to be returned if the condition is false is followed by a colon `:`.
+    - The value returned when the condition is true comes before the colon `:`.
+    - The value returned when the condition is false comes after the colon `:`.
     - The ternary operator can be nested.
 - The ternary operator can be used to assign a value to a variable based on a condition.
 
@@ -99,7 +99,7 @@ This is how to use loops in JavaScript:
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
-foreach (let i in [1, 2, 3, 4, 5]) {
+for (let i of [1, 2, 3, 4, 5]) {
     console.log(i);
 }
 let i = 0;
@@ -113,7 +113,8 @@ do {
 } while (i < 5);
 ```
 - The for loop is used to iterate over a block of code a specific number of times.
-- The foreach loop is used to iterate over the elements of an array or object.
+- The `for...of` loop is used to iterate over the values of an iterable (arrays, strings, etc.).
+- The `for...in` loop is used to iterate over the keys/indices of an object or array.
 - The while loop is used to iterate over a block of code as long as a specified condition is true.
 - The do-while loop is similar to the while loop, but it will always execute the block of code at least once, even if the condition is false.
 - The loop variable is declared with `let` to limit its scope to the loop.

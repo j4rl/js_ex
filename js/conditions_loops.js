@@ -1,47 +1,62 @@
-//Ternary example
-let ternary=(a>b)?'a is greater':'b is greater'; //ternary is a short form of if else statement
+const a = 10;
+const b = 20;
+const numbers = [1, 2, 3, 4, 5];
+const selectedCase = "case2";
 
-//if else example
-if(condition==true){
-    // do something
-}
-else{
-    // do something else
-}   
+// Ternary example.
+const ternary = a > b ? "a is greater" : "b is greater";
+console.log(ternary);
 
-//do while loop
-do{
-    // do something 
-}while(condition==true);
-
-//while loop
-while(condition==true){
-    // do something
+// If/else example.
+if (a > b) {
+    console.log("a is greater than b");
+} else if (a < b) {
+    console.log("a is less than b");
+} else {
+    console.log("a and b are equal");
 }
 
-//for loop
-for(let i=0; i<10; i++){  // for(initialization; condition; increment)
-    // do something
+// Do-while loop: always runs at least once.
+let doWhileCounter = 0;
+do {
+    console.log(doWhileCounter);
+    doWhileCounter++;
+} while (doWhileCounter < 3);
+
+// While loop: runs while the condition is true.
+let whileCounter = 0;
+while (whileCounter < 3) {
+    console.log(whileCounter);
+    whileCounter++;
 }
 
-//for in loop
-for(let i in arr){ // for in loop
-    // do something
+// For loop.
+for (let i = 0; i < 10; i++) {
+    console.log(i);
 }
 
+// For...in loop - iterates over keys/indices.
+for (const index in numbers) {
+    console.log(index);
+}
 
-//switch case
-switch(variable){
-    case 'case1':    
-        // do something
+// For...of loop - iterates over values.
+for (const number of numbers) {
+    console.log(number);
+}
+
+// Switch case.
+switch (selectedCase) {
+    case "case1":
+        console.log("First case");
         break;
-    case 'case2':    
-        // do something
+    case "case2":
+        console.log("Second case");
         break;
-    case 'case3':
-        // do something
+    case "case3":
+        console.log("Third case");
         break;
     default:
-        // do something
+        console.log("No matching case");
         break;
 }

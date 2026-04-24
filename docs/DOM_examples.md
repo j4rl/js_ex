@@ -53,7 +53,7 @@ button.addEventListener('click', () => {
     console.log('Button clicked!');
 });
 ```
-Eventlistener to check if the document is loaded before running the script:
+Event listener to check if the document is loaded before running the script:
 You do this because the script is loaded before the document is fully loaded, so you need to wait for the document to be loaded before running the script.
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
